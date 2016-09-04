@@ -1,2 +1,6 @@
 node_modules/
 npm-debug.log
+
+# Custom
+.DS_Store
+/ignored/
