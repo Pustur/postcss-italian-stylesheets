@@ -59,12 +59,12 @@ This plugin is heavily inspired by the other [PostCSS] languages plugins such as
 - [postcss-australian-stylesheets] Australian Style Sheets.
 - [postcss-canadian-stylesheets] Canadian Style Sheets.
 - [postcss-chinese-stylesheets] Chinese Style Sheets.
-- [postcss-russian-stylesheets] Russian Style Sheets.
-- [postcss-swedish-stylesheets] Swedish Style Sheets.
-- [postcss-spanish-stylesheets] Spanish Style Sheets.
+- [postcss-czech-stylesheets] Czech Style Sheets.
 - [postcss-german-stylesheets] German Style Sheets.
 - [postcss-lolcat-stylesheets] Lolspeak Style Sheets.
-- [postcss-czech-stylesheets] Czech Style Sheets.
+- [postcss-russian-stylesheets] Russian Style Sheets.
+- [postcss-spanish-stylesheets] Spanish Style Sheets.
+- [postcss-swedish-stylesheets] Swedish Style Sheets.
 - [postcss-tatar-stylesheets] Tatar Style Sheets
 
 [postcss-andalusian-stylesheets]: https://github.com/bameda/postcss-andalusian-stylesheets

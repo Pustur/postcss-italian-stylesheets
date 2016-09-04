@@ -6,3 +6,7 @@ npm-debug.log
 
 test.js
 .travis.yml
+
+# Custom
+.DS_Store
+/ignored/
