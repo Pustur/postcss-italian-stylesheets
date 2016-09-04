@@ -1,0 +1,35 @@
+{
+  "name": "postcss-italian-stylesheets",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for writing Italian Stylesheets",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "italian",
+    "stylesheets",
+    "italian-stylesheets",
+    "fun"
+  ],
+  "author": "Loris Bettazza <loris.bettazza@gmail.com>",
+  "license": "MIT",
+  "repository": "Pustur/postcss-italian-stylesheets",
+  "bugs": {
+    "url": "https://github.com/Pustur/postcss-italian-stylesheets/issues"
+  },
+  "homepage": "https://github.com/Pustur/postcss-italian-stylesheets",
+  "dependencies": {
+    "postcss": "^5.1.2"
+  },
+  "devDependencies": {
+    "ava": "^0.15.0",
+    "eslint": "^3.4.0",
+    "eslint-config-postcss": "^2.0.2"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5"
+  }
+}
