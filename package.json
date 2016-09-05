@@ -22,12 +22,13 @@
     "postcss": "^5.1.2"
   },
   "devDependencies": {
-    "ava": "^0.15.0",
+    "ava": "^0.16.0",
     "eslint": "^3.4.0",
     "eslint-config-postcss": "^2.0.2"
   },
   "scripts": {
-    "test": "ava && eslint *.js"
+    "test": "ava && eslint *.js",
+    "test-012": "ava"
   },
   "eslintConfig": {
     "extends": "eslint-config-postcss/es5"
