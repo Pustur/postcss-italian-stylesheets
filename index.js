@@ -6,9 +6,9 @@ module.exports = postcss.plugin('postcss-italian-stylesheets', function () {
     var importantValue = '!importante';
 
     return function (root) {
-        root.walkDecls(decl => {
+        root.walkDecls(function (decl) {
             // Convert Properties
-            Object.keys(properties).forEach(engProperty => {
+            Object.keys(properties).forEach(function (engProperty) {
                 var itaProperty = properties[engProperty];
 
                 if (typeof itaProperty === 'string') {
@@ -25,25 +25,27 @@ module.exports = postcss.plugin('postcss-italian-stylesheets', function () {
             });
 
             // Convert Values
-            Object.keys(values).forEach(engValue => {
+            Object.keys(values).forEach(function (engValue) {
                 var itaValue = values[engValue];
 
                 if (typeof itaValue === 'string') {
                     decl.value = decl.value.replace(
                         new RegExp(
-                            `([^\\w-]+|^)(${itaValue})(?=[^\\w-]+|$)`,
+                            '([^\\w-]+|^)(' + itaValue + ')(?=[^\\w-]+|$)',
                             'g'
                         ),
-                        `$1${engValue}`
+                        '$1' + engValue
                     );
                 } else {
                     for (var i = 0; i < itaValue.length; i++) {
                         decl.value = decl.value.replace(
                             new RegExp(
-                                `([^\\w-]+|^)(${itaValue[i]})(?=[^\\w-]+|$)`,
+                                '([^\\w-]+|^)' +
+                                '(' + itaValue[i] + ')' +
+                                '(?=[^\\w-]+|$)',
                                 'g'
                             ),
-                            `$1${engValue}`
+                            '$1' + engValue
                         );
                     }
                 }
@@ -52,7 +54,7 @@ module.exports = postcss.plugin('postcss-italian-stylesheets', function () {
             // Convert "!importante"
             if (decl.value.indexOf(importantValue) >= 0) {
                 decl.value = decl.value.replace(
-                    new RegExp(`\\s*${importantValue}\\s*`),
+                    new RegExp('\\s*' + importantValue + '\\s*'),
                     ''
                 );
                 decl.important = true;
