@@ -80,6 +80,9 @@ This plugin is heavily inspired by the other [PostCSS] languages plugins such as
 [postcss-spanish-stylesheets]: https://github.com/ismamz/postcss-spanish-stylesheets
 [postcss-swedish-stylesheets]: https://github.com/johnie/postcss-swedish-stylesheets
 [postcss-tatar-stylesheets]: https://github.com/azat-io/postcss-tatar-stylesheets
+
+[All available properties]: https://github.com/Pustur/postcss-italian-stylesheets/blob/master/dictionary/properties.js
+[All available values]: https://github.com/Pustur/postcss-italian-stylesheets/blob/master/dictionary/values.js
 [CHANGELOG.md]: https://github.com/Pustur/postcss-italian-stylesheets/blob/master/CHANGELOG.md
 [ci-img]: https://travis-ci.org/Pustur/postcss-italian-stylesheets.svg
 [ci]: https://travis-ci.org/Pustur/postcss-italian-stylesheets
@@ -89,5 +92,3 @@ This plugin is heavily inspired by the other [PostCSS] languages plugins such as
 [npm]: https://badge.fury.io/js/postcss-italian-stylesheets
 [PostCSS]: https://github.com/postcss/postcss
 [PostCSS#Usage]: https://github.com/postcss/postcss#usage
-[All available properties]: https://github.com/Pustur/postcss-italian-stylesheets/blob/master/dictionary/properties.js
-[All available values]: https://github.com/Pustur/postcss-italian-stylesheets/blob/master/dictionary/values.js

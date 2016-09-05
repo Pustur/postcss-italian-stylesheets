@@ -14,9 +14,9 @@ ___
 ### Changed
 - File `.travis.yml`
     - Reverted to node 0.12 because i re-read the [PostCSS Guidelines] and i
-    noticed that it's required to test node 0.12.
+    noticed that it's required to test node 0.12
     - Removed node 5
-- Rewrote the core to not use ES2015 features to support node 0.12.
+- Rewrote the core to not use ES2015 features to support node 0.12
 
 ## [1.0.2] - 2016-09-04
 ### Added
@@ -38,11 +38,11 @@ ___
     - Test to disallow equal translations\*
 
 \* This means that if a value in the dictionary is the same in both languages,
-it should be commented out to avoid useless computation.
+it should be commented out to avoid useless computation
 
 ## [0.0.0] - 2016-09-04
-Used the [postcss-plugin-boilerplate] as a starting point.  
-There's nothing working for now.
+Used the [postcss-plugin-boilerplate] as a starting point  
+There's nothing working for now
 
 [Keep a Changelog]: http://keepachangelog.com/
 [PostCSS Guidelines]: https://github.com/postcss/postcss/blob/master/docs/guidelines/plugin.md#21-plugin-must-be-tested
