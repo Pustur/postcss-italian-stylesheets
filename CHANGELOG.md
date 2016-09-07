@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog] and this project adheres to
 
 ___
 
+## [1.0.5] - 2016-09-07
+### Changed
+- Updated PostCSS to 5.2.0
+
 ## [1.0.4] - 2016-09-06
 ### Changed
 - Removed linting in node 0.12 that caused errors

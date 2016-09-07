@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Pustur/postcss-italian-stylesheets",
   "dependencies": {
-    "postcss": "^5.1.2"
+    "postcss": "^5.2.0"
   },
   "devDependencies": {
     "ava": "^0.16.0",

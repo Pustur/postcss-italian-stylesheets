@@ -1,6 +1,7 @@
 # PostCSS Italian Stylesheets
 [![Build Status][ci-img]][ci]
 [![npm version][npm-img]][npm]
+![Dependencies][dep-img]
 ![Dev Dependencies][dev-dep-img]
 
 > [PostCSS] plugin for writing Italian Stylesheets 🇮🇹
@@ -86,7 +87,8 @@ This plugin is heavily inspired by the other [PostCSS] languages plugins such as
 [CHANGELOG.md]: https://github.com/Pustur/postcss-italian-stylesheets/blob/master/CHANGELOG.md
 [ci-img]: https://travis-ci.org/Pustur/postcss-italian-stylesheets.svg
 [ci]: https://travis-ci.org/Pustur/postcss-italian-stylesheets
-[dev-dep-img]: https://david-dm.org/Pustur/postcss-italian-stylesheets.svg
+[dep-img]: https://david-dm.org/Pustur/postcss-italian-stylesheets.svg
+[dev-dep-img]: https://david-dm.org/Pustur/postcss-italian-stylesheets/dev-status.svg
 [LICENSE]: https://github.com/Pustur/postcss-italian-stylesheets/blob/master/LICENSE
 [npm-img]: https://badge.fury.io/js/postcss-italian-stylesheets.svg
 [npm]: https://badge.fury.io/js/postcss-italian-stylesheets
