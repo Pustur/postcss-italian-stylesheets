@@ -1,6 +1,6 @@
 {
   "name": "postcss-italian-stylesheets",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "PostCSS plugin for writing Italian Stylesheets",
   "keywords": [
     "postcss",
